@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Build do PyInstaller
+build/
+dist/
+
+# Saidas de diagnostico (geradas em tempo de execucao)
+debug/*
+!debug/.gitkeep
+
+# Calibracao especifica de cada maquina
+calibration/*.json
+
+# IDEs / SO
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
